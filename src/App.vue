@@ -3,7 +3,7 @@
     <roma-accordion
         :head="head"
         :body="body"
-        :theme="theme"
+        :darkmode="false"
         :position="position"
     >
     </roma-accordion>
@@ -20,7 +20,6 @@ export default {
   },
   data() {
     return {
-      theme: 'light',
       position: '',
       head: 'FAQ',
       body:
