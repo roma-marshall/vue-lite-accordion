@@ -2,7 +2,7 @@
   <div class="container">
     <div class="relative overflow-hidden rounded text-slate-900 bg-gray-100">
       <input type="checkbox" class="peer absolute top-0 inset-x-0 w-full h-16 opacity-0 z-10 cursor-pointer mb-20">
-      <div class="my-5 mx-7 px-3">
+      <div class="flex justify-start my-5 mx-1 sm:mx-10 px-3">
         <h1 class="text-xl">{{ head }}</h1>
       </div>
       <!-- arrow icon -->
@@ -14,7 +14,7 @@
       </div>
       <!-- Content -->
       <div class="overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-screen">
-        <div class="mb-5 pt-3 px-3 mx-7 border-t">
+        <div class="mb-5 pt-3 px-3 mx-1 sm:mx-10 border-t">
           <p>{{ body }}</p>
         </div>
       </div>
