@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <main>
     <div class="relative overflow-hidden rounded"
          :class="darkmode ? 'text-gray-300 bg-slate-800' : 'text-slate-900 bg-gray-100'">
       <input type="checkbox" class="peer absolute top-0 inset-x-0 w-full h-16 opacity-0 z-10 cursor-pointer mb-20">
@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>

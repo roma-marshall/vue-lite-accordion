@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center bg-gray-500 h-screen py-10">
+  <div class="flex justify-center bg-gray-500 h-screen p-20">
     <roma-accordion
         :head="head"
         :body="body"
